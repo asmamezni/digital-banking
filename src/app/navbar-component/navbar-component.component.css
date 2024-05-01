@@ -1,0 +1,20 @@
+#navbar1 {
+    width: 100%;
+    background-color: #4777aa; /* Correction: Fond bleu */
+    height: 70px;
+    
+}
+#navbar {
+    width: 17.7%;
+    background-color: #4777aa; /* Correction: Fond bleu */
+    height: 70px;
+    border: none;
+}
+.icon-color {
+    color: #4777aa; /* Changez la couleur selon vos préférences */
+  }
+  .search-color {
+    color: #4777aa; /* Changez la couleur selon vos préférences */
+    border-color: #4777aa; /* Définit la couleur de la bordure */
+    border-width: 1px; 
+  }

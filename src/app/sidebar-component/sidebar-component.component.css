@@ -1,0 +1,189 @@
+
+.square-container {
+    aspect-ratio: 1 / 1; /* Définit un rapport hauteur / largeur de 1:1, créant ainsi une forme carrée */
+}
+
+.topnav {
+    background-color: #ffffff; /* Correction: Fond blanc */
+    overflow: hidden;
+}
+
+.bank-text {
+    margin: 0 auto; /* Centrer le texte horizontalement */
+    font-weight: bold; /* Mettre en gras */
+}
+
+.navbar-toggler:focus::placeholder {
+    font-size: 10px;
+}
+
+form.example button:hover {
+    background: #28a745;
+}
+
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.container .table-responsive {
+    margin: 20px auto;
+    overflow-x: auto;
+}
+
+.container .table-responsive::-webkit-scrollbar {
+    height: 5px;
+}
+
+.container .table-responsive::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-image: linear-gradient(to right, #4777aa, #4777aa);
+}
+
+#navbar {
+    width: 15%;
+    background-color: #4777aa; /* Correction: Fond bleu */
+    height: 70px;
+  
+}
+
+.bg-blight {
+    color: #4777aa;
+    font-weight: 100;
+}
+
+.bg-bdark {
+    color: #4777aa;
+    font-weight: 600;
+}
+
+#navbar a {
+    color: white;
+}
+
+.fas.fa-bars {
+    color: white;
+}
+
+#navbar2 {
+    width: 40%;
+}
+a.router-link {
+    color: #fff; /* Couleur du texte */
+    text-decoration: none; /* Supprimer le soulignement du lien */
+    display: flex; /* Permettre l'alignement vertical des icônes et du texte */
+    align-items: center; /* Aligner les éléments verticalement */
+    margin-bottom: 10px; /* Ajouter de l'espace en bas */
+}
+#navbar-items {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 15%; /* ou ajustez selon vos besoins */
+    background-color: rgba(71, 119, 170, 0.75); /* Fond bleu */
+    height: 150%;
+}
+
+
+ul#navbar-items li {
+    padding: 15px 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    color: #f7f7f9;
+    
+}
+
+ul li .fas {
+    font-size: 16px;
+}
+
+ul#navbar-items li:hover {
+    background-color: rgba(71, 119, 170, 0.75);
+    color: white;
+}
+
+ul li:hover .fas {
+    color: #f7910c;
+}
+
+#topnavbar {
+    width: 80%;
+}
+
+.fs13 {
+    font-size: 13px;
+}
+
+.fs14 {
+    font-size: 18px;
+    color: white;
+}
+
+.fas.fa-times {
+    color: red;
+}
+
+.fas.fa-check {
+    color: greenyellow;
+}
+
+.example {
+    width: 50%;
+}
+
+@media (max-width: 780px) {
+    #navbar {
+        width: 20%;
+    }
+    #topnavbar {
+        width: 80%;
+    }
+    .text-decoration-none.fs14 {
+        font-size: 10px;
+    }
+    .text-decoration-none .fs13 {
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 430px) {
+    #navbar-items,
+    #topnavbar {
+        width: 100%;
+        height: 100%;
+    }
+    #ps-3 name{
+ font-weight: bold;
+        color: white;
+    }
+    #navbar-items {
+        padding: 20px;
+        margin-bottom: 30px;
+       
+    }
+    .example {
+        width: 100%;
+    }
+    .text-decoration-none.fs14 {
+        font-size: 14px;
+    }
+    .text-decoration-none .fs13 {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 376px) {
+    #navbar-items {
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+    .topnav a {
+        font-size: 12px;
+        padding: 7px;
+    }
+}
